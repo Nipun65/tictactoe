@@ -1,0 +1,52 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 20px auto;
+  border: 5px solid black;
+}
+
+.cell {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cell:hover {
+  background-color: #ccc;
+}
+
+.reset-button {
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
